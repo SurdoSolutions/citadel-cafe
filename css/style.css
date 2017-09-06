@@ -18,6 +18,36 @@ body{
   line-height: 1.6;
 }
 
+h1{
+    margin: 10px;
+}
+
+ul {
+    overflow: auto;
+}
+
+ul li {
+    list-style-type: none;
+    float: left;
+}
+
+ul li a i {
+	background: none;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	border-radius: 20px;
+	font-size: 25px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+
+ul li a i:hover {
+	opacity: .7;
+}
+
 #showcase{
   background-image: url('../img/landingpage-showcase.jpeg');
   height: 100vh;
@@ -33,7 +63,7 @@ body{
 }
 
 #showcase .logo-container {
-    padding: 20px;
+    padding: 0 20px;
     width: auto;
     height: auto;
 }
@@ -50,13 +80,13 @@ body{
 }
 
 #showcase h1{
-  font-size: 50px;
-  line-height: 1.2;
-  color: #B4252D;
-  text-align: center;
-  text-shadow: 8px 16px 32px rgba(0,0,0,0.4),
-                 8px 16px 32px rgba(0,0,0,4),
-                 8px 16px 46px rgba(0,0,0,4);
+    font-size: 50px;
+    line-height: 1.2;
+    color: #B4252D;
+    text-align: center;
+    text-shadow: 4px 8px 16px rgba(0,0,0,0.4),
+                 4px 8px 16px rgba(0,0,0,4),
+                 4px 8px 16px rgba(0,0,0,4);
 }
 
 #showcase p{
@@ -67,7 +97,7 @@ body{
 }
 
 #showcase .button {
-  font-size: 18px;
+  font-size: 25px;
   text-decoration: none;
   color: black;
   /*border: #B4252D 1px solid;*/
@@ -75,11 +105,16 @@ body{
   border-radius: 10px;
   margin-top: 20px;
   background: #785035;
+  transition: all 0.2s ease-in-out;
 }
 
 #showcase .button:hover {
   background: #572F23;
   color: #fff;
+}
+
+#h1-and-social {
+    float: left;
 }
 
 #section-a {
@@ -88,12 +123,25 @@ body{
   color: #fff;
   text-align: center;
 }
+
+#section-a p {
+    padding: 10px;
+}
+
+#h1-and-social h1 {
+    margin: 0 10px 0 10px;
+}
 #section-b {
   padding: 20px;
   background: #8C5E3E;
   color: black;
   text-align: center;
 }
+
+#section-b h1 {
+    margin: 0 0 5px 0;
+}
+
 #section-c {
   display: flex;
   flex-direction: column;
@@ -104,10 +152,21 @@ body{
   color: white;
 }
 
-#section-c ul {
+#section-z {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #572F23;
+  color: white;
+}
+
+#section-z ul {
     list-style: none;
 }
-#section-c div {
+
+#section-z div {
     padding: 5px;
     width: 12.5%;
     height: auto;
@@ -127,4 +186,23 @@ body{
     display: block;
     margin: auto;
     width: 50%;
+}
+
+#instagram-embed {
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+.fb-like {
+    padding: 10px;
+}
+
+#maps {
+    padding: 10px;
+}
+
+#menu {
+    width: 80%;
+    height: auto;
+    padding: 5%;
 }
