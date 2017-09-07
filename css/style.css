@@ -24,18 +24,21 @@ h1{
     margin: 10px;
 }
 
+/*social media buttons at very bottom*/
 ul {
     overflow: auto;
 }
 
+/*social media buttons at very bottom*/
 ul li {
     list-style-type: none;
     float: left;
 }
 
+/*social media buttons at very bottom*/
 ul li a i {
 	background: none;
-	color: #fff;
+	color: black;
 	width: 30px;
 	height: 30px;
 	border-radius: 20px;
@@ -46,12 +49,13 @@ ul li a i {
     transition: all 0.2s ease-in-out;
 }
 
+/*social media buttons at very bottom*/
 ul li a i:hover {
 	opacity: .7;
 }
 
 #showcase{
-  background-image: url('../img/landingpage-showcase.jpeg');
+  background-image: url('../img/daniel-ruswick-425.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -61,23 +65,29 @@ ul li a i:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 20px;
+  padding: 0 0px;
 }
 
-#showcase .logo-container {
-/*    padding: 0 20px;*/
-    width: auto;
+#logo {
+    opacity: 1;
+    width: 50%;
+    min-width: 300px;
     height: auto;
 }
 
-#showcase img {
-  opacity: 1;
-  width: 50%;
-  height: auto;
+#h1-div {
+    width: auto;
+    height: auto;
+    min-width: 300px;
+    min-height: 100px;
+}
+
+#nav {
+    max-height: 
 }
 
 #showcase h1{
-    font-size: 50px;
+    font-size: 425%;
     line-height: 1.2;
     color: #B4252D;
     text-align: center;
@@ -86,39 +96,27 @@ ul li a i:hover {
                  4px 8px 16px rgba(0,0,0,4);
 }
 
-#showcase p{
-  font-size: 20px;
-  font-weight: 800;
-  opacity: 1;
-  color: #631419;
-}
-
-showcase ul {
-    margin: 0;
-    padding: 0;
-}
-
-showcase li{
-    display: inline;
-    padding: 0 20px 0 20px;
-}
-
 #showcase .button {
-  font-size: 25px;
-  text-decoration: none;
-  color: black;
-  /*border: #B4252D 1px solid;*/
-  padding: 10px 10px 10px 10px;
-  border-radius: 8px;
-  margin-top: 20px;
-  background: #785035;
-  transition: all 0.2s ease-in-out;
-    width: 30%;
+    font-size: 2.5vh;
+    text-decoration: none;
+    color: black;
+    /*border: #B4252D 1px solid;*/
+    padding: 2px;
+    border-radius: 2px;
+    margin: 1px;
+    background: #785035;
+    transition: all 0.2s ease-in-out;
+    width: 30px;
 }
 
 #showcase .button:hover {
   background: #572F23;
   color: #fff;
+}
+
+#showcase img {
+    max-width: 700px;
+    max-height: 583px;
 }
 
 #h1-and-social {
@@ -127,8 +125,8 @@ showcase li{
 
 #section-a {
   padding: 20px;
-  background: #572F23;
-  color: #fff;
+  background: #FFFDEE;
+  color: black;
   text-align: center;
 }
 
@@ -142,7 +140,7 @@ showcase li{
 }
 #section-b {
   padding: 20px;
-  background: #8C5E3E;
+  background: #FFEBDD;
   color: black;
   text-align: center;
 }
@@ -157,8 +155,8 @@ showcase li{
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #572F23;
-  color: white;
+  background: #FFEBDD;
+  color: black;
 }
 
 #section-z {
@@ -167,8 +165,8 @@ showcase li{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #371d16;
-    color: white;
+    background: #ffe1cc;
+    color: black;
     padding: 2%;
 }
 
@@ -217,7 +215,7 @@ showcase li{
 }
 
 .go-back {
-    color: #ffffff;
+    color: black;
     text-decoration: underline;
     text-transform: uppercase;
     font-size: 16px;

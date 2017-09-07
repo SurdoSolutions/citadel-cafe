@@ -24,12 +24,12 @@
       }(document, 'script', 'facebook-jssdk'));
     </script>
     <script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
         crossorigin="anonymous">
     </script>
-    <script src="js/jquery.localScroll-2.0.0/jquery.localscroll.js" type="text/javascript"></script> 
     <script src="js/jquery.scrollTo-2.1.2/jquery.scrollTo.js" type="text/javascript"></script>
+    <script src="js/jquery.localScroll-2.0.0/jquery.localscroll.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function() {
            $('#nav').localScroll({duration:800});
@@ -39,21 +39,19 @@
         });
     </script>
     <header id="showcase">
-        <h1 id="content">Welcome</h1>
-        <div class="container-fluid"><img src="img/Citadel-Virtical-Logo-PNG.png" alt="some image" id="logo"></div>
-        <div class="container-fluid">
-            <nav id="nav">
-                <a href="#section-b" class="button scrollable" id="content">Menu</a>
-                <a href="#section-a" class="button scrollable" id="content">Our Story</a>
-                <a href="#section-c" class="button scrollable" id="content">Location</a>
-            </nav>
+        <div class="container-fluid" id="h1-div"><h1 id="content">Welcome to</h1></div>
+        <img src="img/Citadel-Virtical-Logo-PNG.png" alt="some image" id="logo">
+        <div class="container-fluid" id="nav">
+            <div><a href="#section-b" class="button scrollable">Menu</a></div>
+            <div><a href="#section-a" class="button scrollable">Our Promise</a></div>
+            <div><a href="#section-c" class="button scrollable">Location</a></div>
         </div>
+        
     </header>
-    
     <section id="section-a">
        
         <div id="h1-and-social">
-            <h1 id="about-us">Our Story</h1>
+            <h1 id="about-us">Our Promise</h1>
             <div class="fb-like" data-href="https://www.facebook.com/citadelcafehilliard/" data-width="10px" data-layout="box_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
         </div>
         
