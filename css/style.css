@@ -1,7 +1,9 @@
+/*
 *{
   margin: 0;
   padding: 0;
 }
+*/
 
 /*
 #logo{
@@ -63,14 +65,9 @@ ul li a i:hover {
 }
 
 #showcase .logo-container {
-    padding: 0 20px;
+/*    padding: 0 20px;*/
     width: auto;
     height: auto;
-}
-
-#showcase .button-container {
-    padding: 10px 10px 10px 10px;
-    vertical-align: middle;
 }
 
 #showcase img {
@@ -96,16 +93,27 @@ ul li a i:hover {
   color: #631419;
 }
 
+showcase ul {
+    margin: 0;
+    padding: 0;
+}
+
+showcase li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
 #showcase .button {
   font-size: 25px;
   text-decoration: none;
   color: black;
   /*border: #B4252D 1px solid;*/
-  padding: 10px 20px;
-  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 8px;
   margin-top: 20px;
   background: #785035;
   transition: all 0.2s ease-in-out;
+    width: 30%;
 }
 
 #showcase .button:hover {
@@ -125,7 +133,8 @@ ul li a i:hover {
 }
 
 #section-a p {
-    padding: 10px;
+    padding: 8px;
+    line-height: 1.2;
 }
 
 #h1-and-social h1 {
@@ -139,7 +148,7 @@ ul li a i:hover {
 }
 
 #section-b h1 {
-    margin: 0 0 5px 0;
+    margin: 0 0 0 0;
 }
 
 #section-c {
@@ -153,23 +162,18 @@ ul li a i:hover {
 }
 
 #section-z {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: #572F23;
-  color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #371d16;
+    color: white;
+    padding: 2%;
 }
 
 #section-z ul {
     list-style: none;
-}
-
-#section-z div {
-    padding: 5px;
-    width: 12.5%;
-    height: auto;
 }
 
 #instagram-logo {
@@ -202,7 +206,24 @@ ul li a i:hover {
 }
 
 #menu {
-    width: 80%;
-    height: auto;
-    padding: 5%;
+    width: 65%;
+    height: 65%;
+    padding: 1%;
+    transition: all 0.2s ease-in-out;
+}
+
+#menu:hover {
+    opacity: 0.8;
+}
+
+.go-back {
+    color: #ffffff;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+.go-back:hover {
+    color: darkred;
 }
