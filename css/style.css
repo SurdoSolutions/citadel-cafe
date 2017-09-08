@@ -70,40 +70,32 @@ ul li a i:hover {
 
 #logo {
     opacity: 1;
-    width: 50%;
-    min-width: 300px;
-    height: auto;
-}
-
-#h1-div {
-    width: auto;
-    height: auto;
-    min-width: 300px;
-    min-height: 100px;
-}
-
-#nav {
-    max-height: 
+    width: 80vw;
+    min-width: 200px;
+    margin: 20px;
 }
 
 #showcase h1{
-    font-size: 425%;
+/*
+    font-size: 6vw;
     line-height: 1.2;
+*/
+    font-weight: bold;
+    margin: 0 10px;
     color: #B4252D;
-    text-align: center;
     text-shadow: 4px 8px 16px rgba(0,0,0,0.4),
                  4px 8px 16px rgba(0,0,0,4),
                  4px 8px 16px rgba(0,0,0,4);
 }
 
 #showcase .button {
-    font-size: 2.5vh;
+    font-size: 3vh;
     text-decoration: none;
     color: black;
-    /*border: #B4252D 1px solid;*/
+    border: black 1px solid;
     padding: 2px;
     border-radius: 2px;
-    margin: 1px;
+    margin: 5px;
     background: #785035;
     transition: all 0.2s ease-in-out;
     width: 30px;
@@ -136,7 +128,7 @@ ul li a i:hover {
 }
 
 #h1-and-social h1 {
-    margin: 0 10px 0 10px;
+    margin: 0 10px;
 }
 #section-b {
   padding: 20px;
@@ -159,19 +151,30 @@ ul li a i:hover {
   color: black;
 }
 
+#section-d{
+      display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+    background: #ffe1cc;
+    margin: 0;
+    padding: 0;
+}
 #section-z {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #ffe1cc;
+    background: #FFEBDD;
     color: black;
     padding: 2%;
 }
 
 #section-z ul {
     list-style: none;
+
 }
 
 #instagram-logo {
