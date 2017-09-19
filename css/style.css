@@ -55,7 +55,7 @@ ul li a i:hover {
 }
 
 #showcase{
-  background-image: url('../img/alex-jones-2394.jpg');
+  background-image: url('../img/alex-jones-2394-sm.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -117,7 +117,7 @@ ul li a i:hover {
 
 #section-a {
   padding: 20px;
-  background: #FFFDEE;
+  background: #ffd2b3;
   color: black;
   text-align: center;
 }
@@ -139,6 +139,7 @@ ul li a i:hover {
 
 #section-b h1 {
     margin: 0 0 0 0;
+    line-height: 1;
 }
 
 #section-c {
@@ -157,9 +158,19 @@ ul li a i:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-    background: #ffe1cc;
+    background: #ffd2b3;
     margin: 0;
     padding: 0;
+}
+#section-e {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #FFEBDD;
+    color: black;
+    padding: 2%;
 }
 #section-z {
     display: flex;
@@ -167,7 +178,7 @@ ul li a i:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #FFEBDD;
+    background: #ffd2b3;
     color: black;
     padding: 2%;
 }
@@ -199,10 +210,6 @@ ul li a i:hover {
 }
 
 .fb-like {
-    padding: 10px;
-}
-
-#maps {
     padding: 10px;
 }
 
