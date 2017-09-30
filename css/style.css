@@ -56,7 +56,7 @@ ul li a i:hover {
 
 #showcase{
   background-image: url('../img/alex-jones-2394-sm.jpg');
-  height: 100vh;
+  height: 38vh;
   background-size: cover;
   background-position: center;
   opacity: .9;
@@ -88,7 +88,7 @@ ul li a i:hover {
                  4px 8px 16px rgba(0,0,0,4);
 }
 
-#showcase .button {
+#nav .button {
     font-size: 3vh;
     text-decoration: none;
     color: black;
@@ -102,7 +102,7 @@ ul li a i:hover {
     height: 34px;
 }
 
-#showcase .button:hover {
+#nav .button:hover {
   background: #572F23;
   color: #fff;
 }
@@ -235,4 +235,22 @@ ul li a i:hover {
 
 .go-back:hover {
     color: darkred;
+}
+
+#feedback{
+    margin: 5px;
+}
+
+#feedback:hover{
+    opacity: .8;
+}
+
+#navbar-logo{
+    width: 40px;
+    height: auto;
+    padding-bottom: 4px ;
+}
+
+.navbar-brand{
+    padding: 10px 15px;
 }
