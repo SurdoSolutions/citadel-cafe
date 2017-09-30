@@ -14,10 +14,11 @@
 */
 
 body{
-  margin: 0;
-  font-family: 'Alice', serif;
-  font-size: 17px;
-  line-height: 1.6;
+    margin: 0;
+    font-family: 'Alice', serif;
+    font-size: 17px;
+    line-height: 1.6;
+    padding-top: 50px;
 }
 
 h1{
@@ -123,6 +124,10 @@ ul li a i:hover {
   text-align: center;
 }
 
+#section-a h1{
+    padding-top: 50px;
+}
+
 #section-a p {
     padding: 8px;
     line-height: 1.2;
@@ -140,29 +145,39 @@ ul li a i:hover {
 
 #section-b h1 {
     margin: 0 0 0 0;
+    padding-top: 50px;
     line-height: 1;
 }
 
 #section-c {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: #FFEBDD;
-  color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #FFEBDD;
+    color: black;
+}
+
+#section-c h1{
+    padding-top: 50px;
 }
 
 #section-d{
-      display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background: #ffd2b3;
     margin: 0;
     padding: 0;
 }
+
+#section-d h1{
+    padding-top: 50px;
+}
+
 #section-e {
     display: flex;
     flex-direction: column;
@@ -173,6 +188,11 @@ ul li a i:hover {
     color: black;
     padding: 2%;
 }
+
+#section-e h1{
+    padding-top: 50px;
+}
+
 #section-z {
     display: flex;
     flex-direction: column;
@@ -253,4 +273,9 @@ ul li a i:hover {
 
 .navbar-brand{
     padding: 10px 15px;
+}
+
+#map{
+    width: 60vw;
+    height: auto
 }
