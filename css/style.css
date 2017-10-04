@@ -46,7 +46,7 @@ ul li a i {
 	font-size: 25px;
 	text-align: center;
 	margin-right: 10px;
-	padding-top: 15%;
+/*	padding-top: 15%;*/
     transition: all 0.2s ease-in-out;
 }
 
@@ -155,7 +155,7 @@ ul li a i:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #FFEBDD;
+    background: #ffd2b3;
     color: black;
 }
 
@@ -169,7 +169,7 @@ ul li a i:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #ffd2b3;
+    background: #FFEBDD;
     margin: 0;
     padding: 0;
 }
@@ -184,7 +184,7 @@ ul li a i:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #FFEBDD;
+    background: #ffd2b3;
     color: black;
     padding: 2%;
 }
@@ -193,13 +193,17 @@ ul li a i:hover {
     padding-top: 50px;
 }
 
+#section-e h2{
+    padding-bottom: 50px;
+}
+
 #section-z {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #ffd2b3;
+    background: #FFEBDD;
     color: black;
     padding: 2%;
 }
@@ -242,7 +246,7 @@ ul li a i:hover {
 }
 
 #menu:hover {
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .go-back {
@@ -257,6 +261,10 @@ ul li a i:hover {
     color: darkred;
 }
 
+#feedback-div{
+    padding: 20px;
+}
+
 #feedback{
     margin: 5px;
 }
@@ -265,17 +273,67 @@ ul li a i:hover {
     opacity: .8;
 }
 
+#map{
+    width: 60vw;
+    height: auto
+}
+
 #navbar-logo{
     width: 40px;
     height: auto;
     padding-bottom: 4px ;
 }
 
+
 .navbar-brand{
     padding: 10px 15px;
+    transition: 0.2s;
 }
 
-#map{
-    width: 60vw;
-    height: auto
+.navbar-brand:hover{
+    opacity: .5;
 }
+
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+    transition: 0.4s;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    line-height: 1;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: gray;
+}
+
+.navbar .fa-facebook{
+    color: white;
+}
+
+.navbar .fa-instagram{
+    color: white;
+}
+
+.navbar .fa-yelp{
+    color: white;
+}
+
+.navbar .fa-google{
+    color: white;
+}
+
+.jumbotron{
+    padding: 31px;
+/*    background: rgb(200, 54, 54);  This is for ie8 and below */
+    background: #D1913C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD194, #D1913C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    text-align: center;
+    display: block;
+}
+
+/*
+.innerjumbo{
+    background: #A30211;
+}*/
