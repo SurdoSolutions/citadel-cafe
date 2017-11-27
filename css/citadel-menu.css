@@ -1,9 +1,14 @@
-.image-container {
+body{
+    background: #572F23;
+}
+
+.menu {
     height: 50%;
     width: 90%;
+    text-align: center;
+    margin: 20px auto;
 }
 
 #menu {
-    width: 100%;
-    height: 100%;
+    margin: 50px auto;
 }

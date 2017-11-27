@@ -55,6 +55,12 @@ ul li a i:hover {
 	opacity: .7;
 }
 
+#top{
+    height: 60px;
+    background: #D1913C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD194, #D1913C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 #showcase{
   background-image: url('../img/alex-jones-2394-sm.jpg');
   height: 38vh;
@@ -149,6 +155,17 @@ ul li a i:hover {
     line-height: 1;
 }
 
+#menu {
+    width: 45%;
+    height: 45%;
+    padding: 1%;
+    transition: all 0.2s ease-in-out;
+}
+
+#menu:hover {
+    opacity: 0.7;
+}
+
 #section-c {
     display: flex;
     flex-direction: column;
@@ -238,17 +255,6 @@ ul li a i:hover {
     padding: 10px;
 }
 
-#menu {
-    width: 65%;
-    height: 65%;
-    padding: 1%;
-    transition: all 0.2s ease-in-out;
-}
-
-#menu:hover {
-    opacity: 0.7;
-}
-
 .go-back {
     color: black;
     text-decoration: underline;
@@ -331,6 +337,23 @@ ul li a i:hover {
     margin: 0;
     text-align: center;
     display: block;
+}
+
+#googlemaps{
+    position: relative;
+    padding-bottom: 75%;
+/*    height: 100%;*/
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+#googlemaps iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
 }
 
 /*
