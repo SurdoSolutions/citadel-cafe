@@ -1,0 +1,127 @@
+body{
+    padding-top: 35px;
+    background: #D1913C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD194, #D1913C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 20px;
+}
+
+/* img {
+
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+
+} */
+
+p {
+
+    font-family: 'Bubbler One', sans-serif;
+}
+    
+h1 {
+
+    font-family: 'Bubbler One', sans-serif;
+/*    
+    margin-left: 1.66%;
+    text-transform: uppercase;
+    border-bottom: 3px solid gray;
+    width: 30%;
+    padding-bottom: 20px;
+*/
+}
+
+.jumbotron{
+    padding: inherit;
+    color: #2c3e50;
+    background: #785035;
+    color: black;
+}
+
+.jumbotron h1{
+    font-size: 55px;
+}
+
+#inner-container{
+    max-width: 745px;
+    margin: auto;
+    /* border: white solid 3px; */
+    padding: 0;
+}
+
+.main-img img{
+    width: 100%;
+    margin-bottom: 5px;
+} 
+.imgs img{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.imgs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+/*Fade in animation*/
+/*keyframe*/
+
+@keyframes fadeIn{
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in{
+    opacity: 0;
+    animation: fadeIn 0.8s ease-in 1 forwards;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.button-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.button-container a{
+    color: black;
+}

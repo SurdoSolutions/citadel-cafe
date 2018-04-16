@@ -18,7 +18,7 @@ body{
     font-family: 'Alice', serif;
     font-size: 17px;
     line-height: 1.6;
-    padding-top: 50px;
+    padding-top: 38px;
 }
 
 h1{
@@ -131,7 +131,7 @@ ul li a i:hover {
 }
 
 #section-a h1{
-    padding-top: 50px;
+    padding-top: 35px;
 }
 
 #section-a p {
@@ -284,12 +284,16 @@ ul li a i:hover {
     height: auto
 }
 
+.navbar{
+    font-family: 'Bubbler One', sans-serif;
+    font-weight: bold;
+}
+
 #navbar-logo{
     width: 40px;
     height: auto;
     padding-bottom: 4px ;
 }
-
 
 .navbar-brand{
     padding: 10px 15px;
@@ -312,20 +316,13 @@ ul li a i:hover {
     color: gray;
 }
 
-.navbar .fa-facebook{
+.social-nav{
     color: white;
+    display: inline;
 }
 
-.navbar .fa-instagram{
-    color: white;
-}
-
-.navbar .fa-yelp{
-    color: white;
-}
-
-.navbar .fa-google{
-    color: white;
+#announcement{
+    color: red;
 }
 
 .jumbotron{
@@ -356,7 +353,17 @@ ul li a i:hover {
     
 }
 
-/*
-.innerjumbo{
-    background: #A30211;
-}*/
+@media(max-width: 768px){
+    #branding,
+    nav, 
+    nav li{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+.innerjumbo h2{
+   line-height: 0.8;
+}
