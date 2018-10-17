@@ -7,6 +7,7 @@
     $currentProjects;
     $currentContact;
     $pageTitle = "Citadel Cafe | Coffee, Turkish Delight, and more!";
+    $styleFile = null;
 
 	//check for submission
 	if(filter_has_var(INPUT_POST, 'submit')){
@@ -110,8 +111,14 @@
     
     <section id="section-b">
         <h1><a href="citadel-menu.html" target="_blank">Menu</a></h1>
-        <h2>Click Below to See Our Full Selection!</h2>
-        <div><a href="citadel-menu.html" target="_blank"><img id="menu" src="img/citadelcafemenugateway.jpg" alt="A photo of a mug of coffee"></a></div>
+        <h3>Click the image if you'd like to download a pdf version of our menu!</h3>
+        <div class="container-fluid">
+           <div class="row">
+            <div class="col-lg-4 col-sm-6"><a href="img/citadel-menu-201807.pdf" target="_blank"><img id="menu" src="img/201807-citadel-menu-1.jpg" alt="A menu"></a></div>
+            <div class="col-lg-4 col-sm-6"><a href="img/citadel-menu-201807.pdf" target="_blank"><img id="menu" src="img/201807-citadel-menu-2.jpg" alt="A menu"></a></div>
+            <div class="col-lg-4 col-sm-6"><a href="img/citadel-menu-201807.pdf" target="_blank"><img id="menu" src="img/201807-citadel-menu-3.jpg" alt="A menu"></a></div>
+        </div>
+        </div>
     </section>
     
     <section id="section-c">

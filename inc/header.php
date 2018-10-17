@@ -10,7 +10,9 @@
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/<?php echo $styleFile ?>">
+    <?php if($styleFile != null) { ?>
+        <link rel="stylesheet" href="css/<?php echo $styleFile ?>">
+    <?php } ?>
     <link href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet">
     <title><?php echo $pageTitle; ?></title>
